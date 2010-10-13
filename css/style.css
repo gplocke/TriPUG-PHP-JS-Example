@@ -65,3 +65,7 @@ button {  width: auto; overflow: visible; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 
+
+.error {
+    color: #F00;
+}
