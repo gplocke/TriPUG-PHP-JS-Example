@@ -1,10 +1,10 @@
 <?php
 
 $userList = array('users' => array(
-                                array(
+                                 array(
                                     'name'   => 'Joey Joe Joe Junior Shabadoo',
                                     'userId' => 'jjjjs',
-                                    'job'    => 'Really Homer Simpson',
+                                    'job'    => "A random guy at Moe's",
                                     'age'    => 42
                                 ),
                                 array(

@@ -33,6 +33,7 @@ pre, code, kbd, samp { font-family: monospace, sans-serif; }
  
 body, select, input, textarea { color:#444; }
 h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
+h2 { font-size: 1.3em; }
 html { -webkit-font-smoothing: antialiased; }
 a:hover, a:active { outline: none; }
 a, a:active, a:visited { color:#607890; }
@@ -65,7 +66,53 @@ button {  width: auto; overflow: visible; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 
+body {
+    padding: 10px;
+}
 
 .error {
     color: #F00;
+}
+
+header {
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+#details {
+    padding: 5px;
+    border: 1px solid #777;
+    width: 300px;
+    float: left;
+    min-height: 225px;
+}
+
+#details h2 {
+    font-size: 1.4em;
+}
+
+#details p {
+    padding: 5px 0;
+}
+
+#popup {
+    background-color: #CCFFAA;
+    position:absolute;
+    padding: 10px;
+    border: 2px solid #62c41d;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em;
+    margin-left: -15em;
+}
+
+#msg {
+    font-size: 1.2em;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #fffbbc;
+    border: 1px solid #000;
+    width: 300px;
 }
