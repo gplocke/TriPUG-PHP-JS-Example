@@ -18,7 +18,7 @@ $userList = array('users' => array(
                                     'name'   => 'Vincent Price',
                                     'userId' => 'vprice',
                                     'job'    => 'Creepy Guy',
-                                    'age'    => 82 
+                                    'age'    => 82
                                 ),
                                 array(
                                     'name'   => 'Morgan Freeman',
