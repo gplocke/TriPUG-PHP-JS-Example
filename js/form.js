@@ -7,13 +7,13 @@ $(document).ready(function() {
 			$(this).serialize(),
 			function(data, textStatus, XMLHttpRequest) {
 				
-				$('#msg').empty()
+				$('#message').empty()
 				         .html(data.msg.join('<br />'))
 				 
 				if (data.rc == 0) {
-					$('#msg').addClass('error');
+					$('#message').addClass('error');
 				} else {
-					$('#msg').removeClass('error');
+					$('#message').removeClass('error');
 				}
 			}, 
 			'json'
